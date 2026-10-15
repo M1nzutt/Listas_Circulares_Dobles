@@ -1,0 +1,164 @@
+[
+  {
+    "id": "signal",
+    "title": "I. SEÑAL PERDIDA",
+    "difficulty": "Fácil",
+    "minutes": 19,
+    "description": "Una transmisión fragmentada sale de una baliza imperial. La tripulación necesita reconstruir su origen.",
+    "puzzles": [
+      {
+        "id": "signal_1",
+        "title": "Baliza sin energía",
+        "narrative": "Al acercarse a la baliza, Ziggs encuentra cuatro módulos de potencia. Su registro indica: «El transmisor requiere 24 unidades; tres módulos operativos producen 6 unidades cada uno. Añade la energía restante para iniciar el canal».",
+        "question": "¿Cuántas unidades faltan para alcanzar 24?",
+        "answer": "6",
+        "hint": "Los tres módulos aportan 18 en total.",
+        "category": "Energía"
+      },
+      {
+        "id": "signal_2",
+        "title": "Frecuencia de Jinx",
+        "narrative": "Jinx intercepta pulsos a 120, 240 y 480 MHz. El protocolo del Morning Star describe un canal donde cada pulso duplica la frecuencia anterior. La siguiente frecuencia abrirá el audio cifrado.",
+        "question": "¿Qué frecuencia, en MHz, debes introducir?",
+        "answer": "960",
+        "hint": "La frecuencia se duplica cada vez.",
+        "category": "Señales"
+      },
+      {
+        "id": "signal_3",
+        "title": "Mensaje espejo",
+        "narrative": "Sona recupera el fragmento «ARO» de una transmisión imperial. El archivo dice «CANAL ESPEJO: leer caracteres en orden inverso». Una energía desconocida aparece mencionada.",
+        "question": "¿Qué palabra revela el canal espejo?",
+        "answer": "ORA",
+        "hint": "Empieza por la última letra.",
+        "category": "Cifrado"
+      },
+      {
+        "id": "signal_4",
+        "title": "Coordenadas dispersas",
+        "narrative": "La baliza muestra tres posiciones de salto: Sector 7, Sector 11 y Sector 15. En la bitácora se lee «Progresión constante; el próximo sector apunta al origen».",
+        "question": "¿Cuál es el próximo número de sector?",
+        "answer": "19",
+        "hint": "Los sectores avanzan de cuatro en cuatro.",
+        "category": "Navegación"
+      },
+      {
+        "id": "signal_5",
+        "title": "Destino oculto",
+        "narrative": "Yasuo reúne el mapa de salto. Dos destinos sobreviven: NEXUS (archivo destruido) y UMBRA (laboratorio de investigación). La señal contiene: «Destino: laboratorio de investigación».",
+        "question": "¿Qué destino debe escoger la tripulación?",
+        "answer": "UMBRA",
+        "hint": "No busques el archivo destruido.",
+        "category": "Deducción"
+      }
+    ]
+  },
+  {
+    "id": "ora",
+    "title": "II. EL NÚCLEO DE ORA",
+    "difficulty": "Media",
+    "minutes": 17,
+    "description": "El laboratorio Umbra permanece sellado. Los informes contienen el procedimiento para recuperar el núcleo.",
+    "puzzles": [
+      {
+        "id": "ora_1",
+        "title": "Puerta del hangar",
+        "narrative": "Ziggs abre un plano de seguridad. La clave de entrada se obtiene sumando las etiquetas de los conductos activos: A=8, B=13 y C=5. El conducto D=9 está averiado y NO participa.",
+        "question": "Introduce la suma de los conductos activos.",
+        "answer": "26",
+        "hint": "Suma únicamente A, B y C.",
+        "category": "Sistemas"
+      },
+      {
+        "id": "ora_2",
+        "title": "Registro de Sona",
+        "narrative": "En un archivo de audio, Sona identifica pulsos cortos y largos: «corto corto largo». Un manual del laboratorio establece corto=1, largo=0; la secuencia debe interpretarse como número binario.",
+        "question": "¿Cuál es el valor decimal de 110?",
+        "answer": "6",
+        "hint": "En binario: 4 + 2 + 0.",
+        "category": "Cifrado"
+      },
+      {
+        "id": "ora_3",
+        "title": "Circuito estabilizador",
+        "narrative": "La cámara de Ora tiene tres acumuladores. El manual indica que cada uno almacena 14 cargas y que la extracción segura precisa la carga combinada de todos.",
+        "question": "¿Cuántas cargas hay que estabilizar?",
+        "answer": "42",
+        "hint": "Multiplica los tres acumuladores por 14.",
+        "category": "Energía"
+      },
+      {
+        "id": "ora_4",
+        "title": "Archivo del Imperio",
+        "narrative": "La pantalla muestra «PSB». A su lado, Jinx encuentra una anotación: «Cifrado de desplazamiento: para transmitir, mover cada letra una posición hacia adelante». Hay que revertirlo para leer el recurso buscado.",
+        "question": "¿Qué palabra está cifrada?",
+        "answer": "ORA",
+        "hint": "Retrocede una letra en el alfabeto.",
+        "category": "Cifrado"
+      },
+      {
+        "id": "ora_5",
+        "title": "Autorización final",
+        "narrative": "Un supervisor dejó la instrucción: «La secuencia de válvulas es DORADO, CIAN, DORADO, CIAN; confirma el siguiente color para liberar el núcleo».",
+        "question": "¿Qué color corresponde a la siguiente válvula?",
+        "answer": "DORADO",
+        "hint": "Los colores se alternan.",
+        "category": "Patrones"
+      }
+    ]
+  },
+  {
+    "id": "rhaast",
+    "title": "III. LA SOMBRA DE RHAAST",
+    "difficulty": "Difícil",
+    "minutes": 15,
+    "description": "Kayn detectó la fuga de información. Los últimos protocolos del Imperio bloquean los datos del Ora.",
+    "puzzles": [
+      {
+        "id": "rhaast_1",
+        "title": "Alarma imperial",
+        "narrative": "La alarma de la fortaleza emplea una secuencia: 2, 3, 5, 8, 13. Un registro explica que cada término es la suma de los dos anteriores. La próxima cifra desactiva el primer bloqueo.",
+        "question": "¿Qué cifra sigue?",
+        "answer": "21",
+        "hint": "Suma 8 y 13.",
+        "category": "Patrones"
+      },
+      {
+        "id": "rhaast_2",
+        "title": "Firma hexadecimal",
+        "narrative": "El módulo de autenticación muestra la clave hexadecimal 1C. Una nota de Ziggs aclara: «C=12, y el primer dígito representa grupos de dieciséis».",
+        "question": "Convierte 1C a decimal.",
+        "answer": "28",
+        "hint": "1×16 + 12.",
+        "category": "Cifrado"
+      },
+      {
+        "id": "rhaast_3",
+        "title": "Bóveda de energía",
+        "narrative": "Un servidor contiene 168 unidades de Ora repartidas por igual en 12 contenedores. Sona indica que la clave es la carga individual de uno de ellos.",
+        "question": "¿Cuántas unidades tiene cada contenedor?",
+        "answer": "14",
+        "hint": "Divide la carga total entre doce.",
+        "category": "Energía"
+      },
+      {
+        "id": "rhaast_4",
+        "title": "Registro de Rhaast",
+        "narrative": "Yasuo recupera la advertencia: «El arma viviente que acompaña a Kayn no es solo metal; tiene voluntad y nombre propio». En el archivo se lee R _ A A S T.",
+        "question": "Completa el nombre del arma consciente.",
+        "answer": "RHAAST",
+        "hint": "La letra ausente es H.",
+        "category": "Archivo"
+      },
+      {
+        "id": "rhaast_5",
+        "title": "Última transmisión",
+        "narrative": "En el registro final, un mensaje usa A=1, B=2… Z=26. El cifrado es 15-18-1. La tripulación sabe que designa aquello que Kayn pretende controlar.",
+        "question": "¿Cuál es la palabra oculta?",
+        "answer": "ORA",
+        "hint": "15 es O, 18 es R y 1 es A.",
+        "category": "Cifrado"
+      }
+    ]
+  }
+]
